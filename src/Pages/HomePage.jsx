@@ -64,7 +64,7 @@ const HomePage = () => {
         <div>
           <h1 className={styles.cat}>SHOP BY CATEGORY</h1>
         </div>
-        <div className={styles.catflex}>
+        <div className={styles.catflex}style={{marginLeft:"5%",width:"90%",justifyContent:"space-between"}}>
           <div className={styles.catflexdiv}>
             <img
               className={styles.catimg}
@@ -215,8 +215,8 @@ const HomePage = () => {
         <div>
           <h1 className={styles.cat}>MORE GOOD THINGS, THIS WAY</h1>
         </div>
-        <div className={styles.catflex}>
-          <div className={styles.catflexdiv}>
+        <div className={styles.catflex}style={{marginLeft:"5%",width:"90%",justifyContent:"space-between"}} >
+          <div className={styles.catflexdiv} >
             <img
               className={styles.catimg}
               src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwb9d60d44/images/Fall2022/boc-launch-prospects_vn_0.png?yocs=o_s_"
